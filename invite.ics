@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Alex:mailto:Alex@virtuemarketresearch.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=apparineer
+ aj1@gmail.com:mailto:apparineeraj1@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Victor:mai
+ lto:victor@virtuemarketresearch.com
+DESCRIPTION;LANGUAGE=en-US:Hi Neeraj\,\n\n\n\nAs discussed over the call ac
+ cept this meeting invite and join the meeting for your next round of Inter
+ view process.\n\n\n\nRegards\,\n\nAlex\n\n\n\n____________________________
+ ____________________________________________________\nMicrosoft Teams meet
+ ing\nJoin on your computer\, mobile app or room device\nClick here to join
+  the meeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1NG
+ JiMWMtN2VhMS00YmVhLWJhNDMtYzc5MTRiNjc5OGU2%40thread.v2/0?context=%7b%22Tid
+ %22%3a%22f5382aa6-60eb-474b-af52-60e563e9a80d%22%2c%22Oid%22%3a%226565f68d
+ -8387-45ee-9fc5-002c869d55e2%22%7d>\nMeeting ID: 475 289 195 425\nPasscode
+ : 9EBFdz\nDownload Teams<https://www.microsoft.com/en-us/microsoft-teams/d
+ ownload-app> | Join on the web<https://www.microsoft.com/microsoft-teams/j
+ oin-a-meeting>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting opti
+ ons<https://teams.microsoft.com/meetingOptions/?organizerId=6565f68d-8387-
+ 45ee-9fc5-002c869d55e2&tenantId=f5382aa6-60eb-474b-af52-60e563e9a80d&threa
+ dId=19_meeting_Yzg1NGJiMWMtN2VhMS00YmVhLWJhNDMtYzc5MTRiNjc5OGU2@thread.v2&
+ messageId=0&language=en-US>\n_____________________________________________
+ ___________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000CC7F442C2942DA01000000000000000
+ 0100000006529FC13819F8C49AAE243548FA50395
+SUMMARY;LANGUAGE=en-US:Interview - Virtue Market Research
+DTSTART;TZID=India Standard Time:20240109T170000
+DTEND;TZID=India Standard Time:20240109T173000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240108T115237Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2122400972
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_Yzg1NGJiMWMtN2VhMS00YmVhLWJhNDMtYzc5MTRiNjc5OGU2%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22f5382aa6-60eb-474b-af52-60e563e9a80d%22%2c%22O
+ id%22%3a%226565f68d-8387-45ee-9fc5-002c869d55e2%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/f5382aa6-60eb-474b-af52-60e563e9a80d/6565f68d-8387-45ee-9fc5-0
+ 02c869d55e2/19_meeting_Yzg1NGJiMWMtN2VhMS00YmVhLWJhNDMtYzc5MTRiNjc5OGU2@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_Yzg1NGJiMWMtN2VhMS00YmV
+ hLWJhNDMtYzc5MTRiNjc5OGU2@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
